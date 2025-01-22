@@ -1,0 +1,202 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "183e24f6-f145-8175-b545-fb22e0ad8922",
+            "created_time": "2025-01-22T18:33:00.000Z",
+            "last_edited_time": "2025-01-22T18:33:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8059-ac3b-d172b76bd120"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Price": {
+                    "id": "%40VIz",
+                    "type": "number",
+                    "number": 162.37
+                },
+                "Market Value": {
+                    "id": "PD%7Cr",
+                    "type": "number",
+                    "number": 12990
+                },
+                "Position": {
+                    "id": "z%7D%7Df",
+                    "type": "number",
+                    "number": 80
+                },
+                "Ticker": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "IYW",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "IYW",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/IYW-183e24f6f1458175b545fb22e0ad8922",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "183e24f6-f145-814e-a36f-e8fae40d628d",
+            "created_time": "2025-01-22T18:33:00.000Z",
+            "last_edited_time": "2025-01-22T18:33:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8059-ac3b-d172b76bd120"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Price": {
+                    "id": "%40VIz",
+                    "type": "number",
+                    "number": 229.79
+                },
+                "Market Value": {
+                    "id": "PD%7Cr",
+                    "type": "number",
+                    "number": 9192
+                },
+                "Position": {
+                    "id": "z%7D%7Df",
+                    "type": "number",
+                    "number": 40
+                },
+                "Ticker": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "IWM",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "IWM",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/IWM-183e24f6f145814ea36fe8fae40d628d",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "183e24f6-f145-8168-ad97-f19285732ec3",
+            "created_time": "2025-01-22T18:33:00.000Z",
+            "last_edited_time": "2025-01-22T18:33:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8059-ac3b-d172b76bd120"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Price": {
+                    "id": "%40VIz",
+                    "type": "number",
+                    "number": 101.95
+                },
+                "Market Value": {
+                    "id": "PD%7Cr",
+                    "type": "number",
+                    "number": 29566
+                },
+                "Position": {
+                    "id": "z%7D%7Df",
+                    "type": "number",
+                    "number": 290
+                },
+                "Ticker": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "IGV",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "IGV",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/IGV-183e24f6f1458168ad97f19285732ec3",
+            "public_url": null
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_database",
+    "page_or_database": {},
+    "request_id": "16c5dcf5-67a8-49e5-830c-ea982c3fc385"
+}
