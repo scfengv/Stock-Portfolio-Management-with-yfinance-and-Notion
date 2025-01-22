@@ -3,8 +3,8 @@ import requests
 import yfinance as yf
 from datetime import datetime, timezone
 
-TOKEN = "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"
-DBID = "183e24f6f1458059ac3bd172b76bd120"
+TOKEN = "TOKEN"
+DBID = "ID"
 
 headers = {
     "Authorization": "Bearer " + TOKEN,
