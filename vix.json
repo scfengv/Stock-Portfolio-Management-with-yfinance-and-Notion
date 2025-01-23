@@ -1,0 +1,550 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "184e24f6-f145-8160-99f3-e31e480ce748",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 15.1
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-22T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f145816099f3e31e480ce748",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-8177-bb1b-cd1f5d717796",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 15.06
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-21T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f1458177bb1bcd1f5d717796",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-8103-b885-fa706ed6aa96",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 15.97
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-17T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f1458103b885fa706ed6aa96",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-811a-8c4f-e2e0a7cfb04d",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 16.6
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-16T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f145811a8c4fe2e0a7cfb04d",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-8162-8322-d518fb3048de",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 16.12
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-15T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f14581628322d518fb3048de",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-8103-be6c-f10c10fc8e6c",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 18.71
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-14T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f1458103be6cf10c10fc8e6c",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-81b4-831e-cf8aecd177ec",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 19.19
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-13T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f14581b4831ecf8aecd177ec",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-812f-95cd-f2a144aa9223",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 19.54
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-10T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f145812f95cdf2a144aa9223",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-81bf-977d-da88f2c5c150",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 17.7
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-08T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f14581bf977dda88f2c5c150",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-819c-806b-e8a5fe918545",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 17.82
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-07T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f145819c806be8a5fe918545",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-8105-b2fe-c2c2e289774f",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 16.04
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-06T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f1458105b2fec2c2e289774f",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-819b-8f00-e9a715037498",
+            "created_time": "2025-01-23T03:37:00.000Z",
+            "last_edited_time": "2025-01-23T03:37:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "be32949f-0955-489c-bb4f-83946b166b8a"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8070-9b3e-f829f315397f"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "VIX": {
+                    "id": "%5EFgU",
+                    "type": "number",
+                    "number": 16.13
+                },
+                "Date": {
+                    "id": "jxAD",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-01-03T06:00:00.000+00:00",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/184e24f6f145819b8f00e9a715037498",
+            "public_url": null
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_database",
+    "page_or_database": {},
+    "request_id": "30fe30aa-c1a8-4253-8a69-16dbd004c1f4"
+}

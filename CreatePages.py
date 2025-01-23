@@ -19,7 +19,7 @@ def create_data():
 
 def main():
     all_data = create_data()
-    create_page(all_data)
+    create_page(all_data, "portfolio")
     
 if __name__ == "__main__":
     main()
