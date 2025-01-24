@@ -3,11 +3,11 @@ import requests
 import yfinance as yf
 from datetime import datetime, timezone
 
-portfolio_token = "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"
-portfolio_id = "183e24f6f1458059ac3bd172b76bd120"
+portfolio_token = "token"
+portfolio_id = "id"
 
-vix_token = "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"
-vix_id = "183e24f6f14580709b3ef829f315397f"
+vix_token = "token"
+vix_id = "id"
 
 portfolio_headers = {
     "Authorization": "Bearer " + portfolio_token,
@@ -96,7 +96,7 @@ def get_value(tickers, positions):
     return prices, values
 
 def get_currency_rate(base_currency, target_currency = "USD"):
-    key = "e341459d838343f783ffa249"
+    key = "key"
     try:
         url = f"https://v6.exchangerate-api.com/v6/{key}/latest/{base_currency}"
         
