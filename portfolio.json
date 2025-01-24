@@ -3,9 +3,137 @@
     "results": [
         {
             "object": "page",
+            "id": "184e24f6-f145-81ce-a6bc-d67e3da54988",
+            "created_time": "2025-01-23T07:29:00.000Z",
+            "last_edited_time": "2025-01-23T07:29:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8059-ac3b-d172b76bd120"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Price": {
+                    "id": "%40VIz",
+                    "type": "number",
+                    "number": 424.07
+                },
+                "Market Value": {
+                    "id": "PD%7Cr",
+                    "type": "number",
+                    "number": 50888
+                },
+                "Position": {
+                    "id": "z%7D%7Df",
+                    "type": "number",
+                    "number": 120
+                },
+                "Ticker": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "TSLA",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "TSLA",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/TSLA-184e24f6f14581cea6bcd67e3da54988",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "184e24f6-f145-810e-9855-cd6729b1d53b",
+            "created_time": "2025-01-23T07:29:00.000Z",
+            "last_edited_time": "2025-01-23T07:29:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "183e24f6-f145-8059-ac3b-d172b76bd120"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Price": {
+                    "id": "%40VIz",
+                    "type": "number",
+                    "number": 468.57
+                },
+                "Market Value": {
+                    "id": "PD%7Cr",
+                    "type": "number",
+                    "number": 18743
+                },
+                "Position": {
+                    "id": "z%7D%7Df",
+                    "type": "number",
+                    "number": 40
+                },
+                "Ticker": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "BRK-B",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "BRK-B",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/BRK-B-184e24f6f145810e9855cd6729b1d53b",
+            "public_url": null
+        },
+        {
+            "object": "page",
             "id": "184e24f6-f145-81ac-bfae-cf3d1fa9cc6e",
             "created_time": "2025-01-23T03:46:00.000Z",
-            "last_edited_time": "2025-01-23T03:46:00.000Z",
+            "last_edited_time": "2025-01-23T07:29:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
@@ -69,7 +197,7 @@
             "object": "page",
             "id": "184e24f6-f145-8118-963d-fdfbb14da347",
             "created_time": "2025-01-23T03:46:00.000Z",
-            "last_edited_time": "2025-01-23T03:46:00.000Z",
+            "last_edited_time": "2025-01-23T07:29:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
@@ -133,7 +261,7 @@
             "object": "page",
             "id": "184e24f6-f145-81ab-868d-fb374512c056",
             "created_time": "2025-01-23T03:46:00.000Z",
-            "last_edited_time": "2025-01-23T03:46:00.000Z",
+            "last_edited_time": "2025-01-23T07:29:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "faff77a3-0c32-46d9-929e-b5b054bbef84"
@@ -198,5 +326,5 @@
     "has_more": false,
     "type": "page_or_database",
     "page_or_database": {},
-    "request_id": "62e549e7-9363-4c4b-a3fe-6ba15a55bded"
+    "request_id": "5609d525-d3fb-4cdc-9105-d5f310bb7111"
 }

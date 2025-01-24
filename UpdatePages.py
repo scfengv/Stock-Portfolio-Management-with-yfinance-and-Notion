@@ -1,6 +1,6 @@
 import json
 import yfinance as yf
-from utils import update_page, get_value, get_pages, create_page
+from utils import update_page, get_value, get_pages, create_page, delete_page
 
 with open("StockPort.json", "r") as file:
     current_data = json.load(file)
@@ -21,7 +21,8 @@ def create_data(tickers, positions):
         all_data.append(data)
     return all_data
 
-def sync_portfolio(tickers):
+
+def main(tickers):
     """
     1. Get stock information & ids in Notion
     2. Buy new stock
@@ -42,7 +43,7 @@ def sync_portfolio(tickers):
     notion_tickers = set(notion_data.keys())
     current_tickers = set(tickers)
     
-    # Buy new stock (in current list but not in Notion)
+    # Buy new stocks (in current list but not in Notion)
     new_stocks = current_tickers - notion_tickers
     if new_stocks:
         positions = [current_data[new] for new in new_stocks]
@@ -53,34 +54,15 @@ def sync_portfolio(tickers):
     same_stocks = current_tickers & notion_tickers
     if same_stocks:
         positions = [current_data[same] for same in same_stocks]
-        # TODO: get page ids & update_page
-
-def get_page_id(tickers):
-    ids = []
-    results = get_pages("portfolio", None)
-        
-    for ticker in tickers:
-        for result in results:
-            if result["properties"]["Ticker"]["title"][0]["text"]["content"] == ticker:
-                ids.append(result["id"])
-    return ids
-            
-def main():
-    """
-    1. Get stock information & ids in Notion
-    2. Buy new stock
-        If stock info (O) but id (X):
-            Create new pages
-    3. Position Change
-        If stock info (O) & id (O):
-            Update pages
-    4. Sell stock
-        If stock info (X) but id (O):
-            Delete pages
-    """
-    ids = get_page_id(tickers)
-    prices, values = get_value(tickers, positions)
-    print(f"ID: {ids}")
+        ids = list(notion_data.values())
+        new_data = create_data(same_stocks, positions)
+        update_page(ids, new_data, "portfolio")
     
+    # Sell stocks (in Notion but not in current list)
+    sell_stocks = notion_tickers - current_tickers
+    if sell_stocks:
+        ids = [notion_data[sell] for sell in sell_stocks]
+        delete_page(ids, "portfolio")
+
 if __name__ == "__main__":
-    main()
+    main(tickers)

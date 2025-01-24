@@ -39,10 +39,6 @@ def get_pages(task, num_pages = None):
     response = requests.post(url, json = payload, headers = headers)
 
     data = response.json()
-
-    with open(f"{task}.json", "w", encoding = "utf8") as f:
-       json.dump(data, f, ensure_ascii = False, indent = 4)
-
     results = data["results"]
     while data["has_more"] and get_all:
         payload = {"page_size": page_size, "start_cursor": data["next_cursor"]}
@@ -89,9 +85,31 @@ def get_page_id(task):
 def get_value(tickers, positions):
     prices, values = [], []
     for ticker, position in zip(tickers, positions):
+        rate = 1
         stock = yf.Ticker(f"{ticker.upper()}")
         price = stock.info["previousClose"]
-        value = position * price
+        if stock.info["currency"] != "USD":
+            rate = get_currency_rate(base_currency = stock.info["currency"])
+        value = position * price * rate
         prices.append(price)
         values.append(value)
     return prices, values
+
+def get_currency_rate(base_currency, target_currency = "USD"):
+    key = "e341459d838343f783ffa249"
+    try:
+        url = f"https://v6.exchangerate-api.com/v6/{key}/latest/{base_currency}"
+        
+        response = requests.get(url)
+        data = response.json()
+        
+        if data["result"] == "success":
+            rate = data["conversion_rates"][target_currency]
+            return rate
+        else:
+            print("Error fetching exchange rate")
+            return None
+    
+    except requests.RequestException as e:
+        print(f"Error occurred: {e}")
+        return None
